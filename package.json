@@ -1,0 +1,34 @@
+{
+  "name": "vue-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:antyoku/vue-practice.git",
+  "author": "antyoku <antyokunaoyasu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.23.6",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
+    "file-exists": "^5.0.1",
+    "get-csv": "^3.0.3",
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-favicons": "^2.2.7",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-pug-linter": "^0.5.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-template": "^5.0.0",
+    "gulp-watch": "^5.0.0",
+    "webpack-stream": "^4.0.2"
+  }
+}
+
