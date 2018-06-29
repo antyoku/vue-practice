@@ -1,0 +1,12 @@
+body {
+  padding: 20px;
+}
+
+#list {
+  height: 180px;
+}
+#attention {
+  margin-top:15px;
+  color: red;
+  font-size:2em;
+}

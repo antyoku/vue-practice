@@ -7,10 +7,15 @@
 </head>
 <body>
   <div id="app">
-
-
-
+    <p>{{ message }}</p>
   </div>
+  <ul id="list">
+    <li v-for="item in fruits">{{ item }}</li>
+  </ul>
+  <p id="click">
+    <button v-on:click="handleClick">add unko</button>
+  </p>
+  <p id="attention" v-if="show">Why are there unko more than fruits?</p>
 <script src='https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js'></script>
 <script src='main.js'></script>
 </body>
