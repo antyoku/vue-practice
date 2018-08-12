@@ -7,15 +7,14 @@
 </head>
 <body>
   <div id="app">
-    <p>{{ message }}</p>
+    <p>{{ message.length >= 10 ? '10文字以上' : '10文字未満' }}です</p>
+    <ul id>
+      <li v-for="item in fruits">{{ item }}</li>
+    </ul>
+    <p v-if="show">Why are there unko more than fruits?</p>
+    <input type="text" v-bind:value="message.value" v-model="message.value">
+    <p>{{ message.value }}</p>
   </div>
-  <ul id="list">
-    <li v-for="item in fruits">{{ item }}</li>
-  </ul>
-  <p id="click">
-    <button v-on:click="handleClick">add unko</button>
-  </p>
-  <p id="attention" v-if="show">Why are there unko more than fruits?</p>
 <script src='https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js'></script>
 <script src='main.js'></script>
 </body>
