@@ -1,10 +1,19 @@
 var app = new Vue({
   el: '#app',
   data: {
-    message: {
-      value: 'Fruits Expo!'
-    },
-    show: true,
-    fruits: ['apple', 'banana', 'strawberry']
+    message: 'hinako',
+    scroll: 0,
+    count: 0,
+    hogeS: true,
+    hogeS2: false
+  },
+  methods: {
+    increment() {
+      this.count += 1
+      this.hogeS2 = true
+    }
+  },
+  mounted: function() {
+    this.scroll = 100
   }
 })

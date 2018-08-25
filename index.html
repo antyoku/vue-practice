@@ -6,15 +6,23 @@
   <link href='main.css' rel='stylesheet'>
 </head>
 <body>
+
+
   <div id="app">
-    <p>{{ message.length >= 10 ? '10文字以上' : '10文字未満' }}です</p>
-    <ul id>
-      <li v-for="item in fruits">{{ item }}</li>
-    </ul>
-    <p v-if="show">Why are there unko more than fruits?</p>
-    <input type="text" v-bind:value="message.value" v-model="message.value">
-    <p>{{ message.value }}</p>
+
+    <div v-bind:txt-content.prop="message"></div>
+    <div v-bind:scroll-top.prop="scroll"></div>
+
+    <p>{{ count }}回クリック</p>
+
+     <button v-on:click="increment">うおおおおおお</button>
+
+    <div v-bind:class="{hoge:hogeS,'hoge-2':hogeS2}">Class</div>
+
   </div>
+
+
+
 <script src='https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js'></script>
 <script src='main.js'></script>
 </body>
